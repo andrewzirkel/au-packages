@@ -1,4 +1,4 @@
-$test=$true
+$test=$false
 
 import-module au
 
