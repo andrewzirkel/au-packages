@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SkySiteFacilities</id>
+    <title>SKYSITE Facilities and Archive Sync</title>
+    <version>3.4.1.2</version>
+    <authors>Arc</authors>
+    <owners>Andy</owners>
+    <summary>SKYSITE Facilities and Archive Sync</summary>
+    <description>SKYSITE Facilities and Archive Sync</description>
+    <projectUrl>https://www.skysite.com/</projectUrl>
+    <packageSourceUrl>https://github.com/andrewzirkel/chocolatey-packages/</packageSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/ferventcoder/chocolatey-packages/02c21bebe5abb495a56747cbb9b4b5415c933fc0/icons/gdrive.svg</iconUrl>
+    <tags>skysite files admin</tags>
+    <copyright>Skysite</copyright>
+    <licenseUrl>https://www.skysite.com/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: "UTF-8" -->
