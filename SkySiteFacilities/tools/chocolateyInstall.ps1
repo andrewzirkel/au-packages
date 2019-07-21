@@ -24,14 +24,6 @@ $packageArgs = @{
   validExitCodes = $validExitCodes
 }
 
-#This checks to see if current version is already installed
-Write-Output "Checking to see if local install is already up to date..."
-$checkreg64 = Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* | Select-Object DisplayName, DisplayVersion, PSChildName | Where-Object { $_.DisplayName -like 'SKYSITE Facilities and Archive Sync' -and ([Version]$_.DisplayVersion) -eq $version} -ErrorAction SilentlyContinue
-$checkreg32 = Get-ItemProperty HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* | Select-Object DisplayName, DisplayVersion, PSChildName | Where-Object { $_.DisplayName -like 'SKYSITE Facilities and Archive Sync' -and ([Version]$_.DisplayVersion) -eq $version} -ErrorAction SilentlyContinue
+Install-ChocolateyPackage @packageArgs
 
-if ($checkreg32 -ne $null -OR $checkreg64 -ne $null) {
-  Write-Output "SSF&A $version is already installed. Skipping download and installation"
-} else {
-  Install-ChocolateyPackage @packageArgs
-}
 

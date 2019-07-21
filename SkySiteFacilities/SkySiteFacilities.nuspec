@@ -5,12 +5,12 @@
     <title>SKYSITE Facilities and Archive Sync</title>
     <version>3.4.1.1</version>
     <authors>Arc</authors>
-    <owners>Andy</owners>
-    <summary>SKYSITE Facilities and Archive Sync</summary>
-    <description>SKYSITE Facilities and Archive Sync</description>
+    <owners>dockeradz</owners>
+    <summary>SKYSITE Facilities and Archive Sync App</summary>
+    <description>The Sync App helps you synchronize files and folders between your local file system and the collections on SKYSITE.</description>
     <projectUrl>https://www.skysite.com/</projectUrl>
     <packageSourceUrl>https://github.com/andrewzirkel/au-packages/</packageSourceUrl>
-    <iconUrl>https://github.com/andrewzirkel/au-packages/raw/master/icons/SkySiteFacilities.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/andrewzirkel/au-packages/1d3c14df8cfc073c48b3fcc4f4d45704cac8091a/icons/SkySiteFacilities.png</iconUrl>
     <tags>skysite files admin</tags>
     <copyright>Skysite</copyright>
     <licenseUrl>https://www.skysite.com/wp-content/uploads/2016/07/SkySite_Combined_Terms_of_Use.pdf</licenseUrl>
