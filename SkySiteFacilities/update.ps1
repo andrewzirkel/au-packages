@@ -43,4 +43,4 @@ function global:au_GetLatest {
     }
 }
 
-Update-Package -ChecksumFor none -NoCheckChocoVersion $true
+Update-Package -ChecksumFor none
