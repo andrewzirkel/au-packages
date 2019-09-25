@@ -10,7 +10,7 @@
     <description>The ARC Facilities and Archive Sync App helps you synchronize files and folders between your local file system and the collections on ARC Facilities.</description>
     <projectUrl>https://app.arcfacilities.com/</projectUrl>
     <packageSourceUrl>https://github.com/andrewzirkel/au-packages/</packageSourceUrl>
-    <iconUrl>https://rawcdn.githack.com/andrewzirkel/au-packages/1d3c14df8cfc073c48b3fcc4f4d45704cac8091a/icons/ARCFacilitiesSync.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/andrewzirkel/au-packages/0a7c9b2382a5dbd428a2b5cdb2207edb0337b566/icons/ARCFacilitiesSync.png</iconUrl>
     <tags>ARC files admin</tags>
     <copyright>ARC Document Solutions, LLC 2019</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
