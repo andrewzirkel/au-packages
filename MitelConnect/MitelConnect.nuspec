@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>MitelConnect</id>
+    <title>Mitel Connect</title>
+    <version>213.100.3953.0</version>
+    <authors>Mitel</authors>
+    <owners>dockeradz</owners>
+    <summary>MITEL CONNECT FOR WINDOWS</summary>
+    <description>However you work, it keeps you connected.</description>
+    <projectUrl>https://www.mitel.com/downloads/mitel-connect-applications</projectUrl>
+    <packageSourceUrl>https://github.com/andrewzirkel/chocolatey-packages/</packageSourceUrl>
+    <iconUrl>https://rawcdn.githack.com/andrewzirkel/au-packages/f8ffdb16f1bf03acc328e1149b714b3f724b3fb7/icons/MitelConnect.png</iconUrl>
+    <tags>mitel</tags>
+    <copyright>Mitel</copyright>
+    <licenseUrl>https://www.mitel.com/downloads/mitel-connect-applications</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: "UTF-8" -->
