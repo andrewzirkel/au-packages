@@ -1,4 +1,4 @@
-$test=$true
+$test=$false
 
 import-module au
 
@@ -36,4 +36,4 @@ function global:au_GetLatest {
     }
 }
 
-Update-Package -ChecksumFor none
+Update-Package -ChecksumFor none -NoCheckUrl
