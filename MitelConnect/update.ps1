@@ -11,7 +11,7 @@ function global:au_BeforeUpdate {
   # We need this, otherwise the checksum won't get created
   # The 64 bit download throws a size error in Get-ChocolateyWebFile.
   $Latest.ChecksumType32 = 'sha256'
-  $Latest.Checksum32     = checksum -t 'sha256' -f $file
+  $Latest.Checksum32     = (Get-FileHash "$myDir\$file").Hash
 }
 
 function global:au_SearchReplace {
@@ -31,7 +31,7 @@ function global:au_GetLatest {
 
 
     @{
-        url32 = $url32
+        url32 = $url32 
         Version = $version
     }
 }
