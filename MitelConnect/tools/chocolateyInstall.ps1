@@ -6,6 +6,13 @@ $checksumType32 = 'sha256'
 $silentArgs = '/S /v/qn'
 $version='213.100.3953.0'
 $validExitCodes=@(0,-1073741819)
+$useragent = [Microsoft.PowerShell.Commands.PSUserAgent]::InternetExplorer + " chocolatey command line"
+$options =
+@{
+  Headers = @{
+    'User-Agent' = $useragent
+  }
+}
 
 $packageArgs = @{
   packageName   = $packageName
@@ -16,6 +23,7 @@ $packageArgs = @{
   checksum      = $checksum32
   checksumType  = $checksumType32
   validExitCodes = $validExitCodes
+  Options       = $options
 }
 
 Install-ChocolateyPackage @packageArgs

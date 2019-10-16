@@ -2,12 +2,12 @@
 $fileType = 'exe'
 $url32 = 'https://app.arcfacilities.co/app/FASynchronization/ARCFacilitiesSync-x86.exe'
 $url64 = 'https://app.arcfacilities.co/app/FASynchronization/ARCFacilitiesSync-x64.exe'
-$checksum32 = '730F293CC6A1A59EB57A581FBD810B4C7E58CBF24C5D2C0AEC1802733BD98FCE'
-$checksum64 = '33205E801E4A6C3FE446E9D539DE27D67103F95055A3C85D7C3DB1FDD7D65584'
+$checksum32 = 'EE5E869965E873306AD3ECCEDFB9454CBEF961039893CFD5851E1CCFCB6B90AF'
+$checksum64 = 'C38C0648C42B8F06A8B87E8584076D19FB6D4944FCB41915F3039505A839141B'
 $checksumType32 = 'sha256'
 $checksumType64 = 'sha256'
-$silentArgs = '/S /v/qn'
-$version='1.2.0.0'
+$silentArgs = '/S /bc:\windows\temp /v/qn'
+$version='1.2.1.0'
 $validExitCodes=@(0,-1073741819)
 
 $packageArgs = @{

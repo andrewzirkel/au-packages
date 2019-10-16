@@ -7,9 +7,16 @@
     <authors>Mitel</authors>
     <owners>dockeradz</owners>
     <summary>MITEL CONNECT FOR WINDOWS</summary>
-    <description>However you work, it keeps you connected.</description>
+    <description>Mitel Connect telephony client for Windows.  However you work, it keeps you connected.  
+Search the directory for colleagues.  
+Dial with one click.  
+Listen to voicemails and return calls with one click.  
+Schedule and join meetings.  
+Share your screen.  
+Set up call routing rules.  
+Set your availability state and let others know how to contact you.</description>
     <projectUrl>https://www.mitel.com/downloads/mitel-connect-applications</projectUrl>
-    <packageSourceUrl>https://github.com/andrewzirkel/chocolatey-packages/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/andrewzirkel/au-packages/</packageSourceUrl>
     <iconUrl>https://rawcdn.githack.com/andrewzirkel/au-packages/f8ffdb16f1bf03acc328e1149b714b3f724b3fb7/icons/MitelConnect.png</iconUrl>
     <tags>mitel</tags>
     <copyright>Mitel</copyright>
